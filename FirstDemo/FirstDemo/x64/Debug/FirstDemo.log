@@ -1,0 +1,18 @@
+﻿  main.c
+c:\users\hp\desktop\practice2021\firstdemo\firstdemo\main.c(48): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\stdio.h(1274): note: 参见“scanf”的声明
+c:\users\hp\desktop\practice2021\firstdemo\firstdemo\main.c(50): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\stdio.h(1274): note: 参见“scanf”的声明
+c:\users\hp\desktop\practice2021\firstdemo\firstdemo\main.c(51): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\stdio.h(1774): note: 参见“sprintf”的声明
+c:\users\hp\desktop\practice2021\firstdemo\firstdemo\main.c(79): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\stdio.h(1274): note: 参见“scanf”的声明
+c:\users\hp\desktop\practice2021\firstdemo\firstdemo\main.c(81): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\stdio.h(1274): note: 参见“scanf”的声明
+c:\users\hp\desktop\practice2021\firstdemo\firstdemo\main.c(83): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\stdio.h(1274): note: 参见“scanf”的声明
+c:\users\hp\desktop\practice2021\firstdemo\firstdemo\main.c(85): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\stdio.h(1274): note: 参见“scanf”的声明
+c:\users\hp\desktop\practice2021\firstdemo\firstdemo\main.c(86): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\stdio.h(1774): note: 参见“sprintf”的声明
+  FirstDemo.vcxproj -> C:\Users\hp\Desktop\practice2021\FirstDemo\x64\Debug\FirstDemo.exe
