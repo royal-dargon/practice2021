@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>张旷的家</title>
+        <style type="text/css">
+            #boxid
+            {
+                border : 1px solid red;
+                width: 400px;
+                height: 200px;
+            }
+            .boxname{
+                color:skyblue
+            }
+            /*标签选择器*/
+            td{
+                border: 1px solid black;
+            }
+            /*子选择器*/
+            /*#boxid>tr>#namestytle{
+                color:blue
+            }*/
+            /*类选择器*/
+            .btn{
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <table id = "boxid" class = "boxname">
+            <tr>
+                <td id=namestytle"">姓名</td>
+                <td colspan="2">
+                    <input type="text" />
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2">工作安排</td>
+                <td colspan="2">1</td>
+            </tr>
+            <tr>
+                <td colspan="2">2</td>
+            </tr>
+            <tr>
+                <td>地址</td>
+                <td colspan="2"></td>
+            </tr>
+            <tr>
+                <td>密码</td>
+                <td><input type="text"/></td>
+                <td><input type="button" value="验证码"/></td>
+            </tr>
+            <tr>
+                <td class = "btn" colspan="3">
+                   <input type="button" value="提交"/> 
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
