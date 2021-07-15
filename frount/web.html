@@ -1,0 +1,263 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>第一次页面测试</title>
+        <style>
+            .box1{
+                height: 200px;
+                width: 1900px;
+                border: 1px solid white;
+                background-image: url(image/image/banner.jpg)
+            }
+            .botton1{
+                margin-top: 20px;
+                margin-right: 30px;
+                float: right;
+            }
+            .botton2{
+                margin-top: 20px;
+                margin-right: 30px;
+                float: right;
+            }
+            .botton3{
+                margin-top: 20px;
+                margin-right: 30px;
+                float: right;
+            }
+            ul{
+                display: inline-flex;
+            }
+            li{
+                border-right: 1px solid white;
+                background-color:  red;
+                color: white;
+                font-size: 10px;
+                font-family: "微软雅黑";
+                font-weight: 100px;
+                height: 30px;
+                width: 150;
+                float: left;
+                line-height: 30px;
+                text-align: center;
+                flex: 1;
+                list-style: none;
+            }
+            li:hover{
+                background-color: white;
+                color: turquoise;
+                cursor: pointer;
+            }
+            .box2{
+                height: 280px;
+                width: 70%;
+                border: 1px solid black;
+                float: left;
+            }
+            .p1{
+                height: 250px;
+                width: 40%;
+                border: black;
+                margin-top: 15px;
+                margin-left: 10px;
+                float: left;
+            }
+            .p{
+                width: 30%;
+                height: 15px;
+                text-align: center;
+            }
+            .word2{
+                width: 55%;
+                height: 250px;
+                margin-top: 10px;
+                margin-right: 10px;
+                float: right;
+                border:1px solid black;
+            }
+            .box3{
+                width: 28%;
+                height: 100%;
+                border: 1px solid black;
+                float: right;
+            }
+            .box4{
+                width: 70%;
+                height: 70%;
+                border:1px solid black;
+                margin-top: 300px;
+            }
+            .word3{
+                width: 50%;
+                height: 97%;
+                border: 1px solid black;
+                margin-top: 10px;
+                margin-left: 10px;
+                float: left;
+                border-radius: 5px;
+            }
+            .word4{
+                width: 47%;
+                height: 47%;
+                border: 1px solid black;
+                margin-top: 10px;
+                margin-right: 10px;
+                float: right;
+                border-radius: 5px;
+            }
+            .word5{
+                width: 47%;
+                height: 47%;
+                border: 1px solid black;
+                margin-top: 10px;
+                margin-right: 10px;
+                float: right;
+                border-radius: 5px;
+            }
+            .box5{
+                width: 95%;
+                height: 15%;
+                border-radius: 5px;
+                border: 1px solid black;
+                margin-top: 15px;
+                margin-left: 10px;
+            }
+            .topic1{
+                color: red;
+                font-size: 15px;
+                font-weight: 800;
+                font-stretch: expanded;
+                font-family: "微软雅黑";
+                margin-left: 20px;
+                margin-top: 8px;
+            }
+            .boxname{
+                width: 95%;
+                height: 30px;
+                margin-left: 20px;
+                border: 1px solid black;
+            }
+            .topic2{
+                color: red;
+                font-size: 20px;
+                font-weight: 800;
+                margin-left: 10px;
+                margin-top: 15px;
+            }
+            .topic3{
+                color: red;
+                font-size: 20px;
+                font-weight: 800;
+                margin-left: 10px;
+                margin-top: 15px;
+            }
+            .topic4{
+                color: gray;
+                font-size: 18px;
+                font-weight: 200px;
+                font-family: "微软雅黑";
+                float: right;
+                margin-top: 8px;
+                margin-right: 10px;
+            }
+            .box3-2{
+                border: 1px solid red;
+                background-color: red;
+                width: 95%;
+                height: 15%;
+                margin-top: 10px;
+                margin-left: 10px;
+                border-radius: 10px;
+            }
+            .box3-2w{
+                
+                color: white;
+                font-weight: 800;
+                font-size: 15px;
+                font-family:"黑体";
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="box1">
+            <input type="button" value="English" class="botton3"/>
+            <input type="button" value="繁体中文" class="botton2"/>
+            <input type="button" value="简体中文" class="botton1"/>
+        </div>
+        <ul>
+            <li>网站首页</li>
+            <li>企业概括</li>
+            <li>企业文化</li>
+            <li>资质信誉</li>
+            <li>技术水平</li>
+            <li>工程业绩</li>
+            <li>质量管理</li>
+            <li>党群建设</li>
+            <li>社会责任</li>
+            <li>国际合作</li>
+            <li>人力资源</li>
+            <li>联系我们</li>
+        </ul>
+        <div class="box2">
+            <div class="p1">
+                <img src="image/image/ul-imglist1.jpg" width="100%" height="230px">
+                <p>我院中标锡盟-南京10000kv特高压交流工程两标包</p>
+            </div>
+            <div class="word2">
+                <span class="topic2">企业要闻</span>
+                <span class="topic4">更多...</span>
+                <hr/>
+            </div>
+        </div>
+            
+        <div class = "box3">
+            <input type="text" id = "search" name = "search" style="width: 450px;height: 30px;margin-left: 10px;margin-top: 10px;"/>
+            <input type="button" value="GO" style="width: 50px; height: 30px;">
+            <div class="box5">
+                <span class="topic1">用户搜索</span>
+                <hr/>
+                <table id = "boxid" class="boxname">
+                    <tr>
+                        <td>用户名：</td>
+                        <td><input type="text"/></td>
+                    </tr>
+                    <tr>
+                        <td>密码：</td>
+                        <td><input type="text"/></td>
+                    </tr>
+                </table>
+                <input type="button" value="登入" style="width: 50px;height: 20px; margin-left: 140px;margin-top: 10px;"/>
+                <input type="button" value="重置" style="width: 50px;height: 20px; margin-top: 10px;margin-left: 100px;"/>
+            </div>
+                <img src="image/image/list1.jpeg" width="60%" height="30px" style="margin-left:10px; margin-top: 20px;">
+                <img src="image/image/list1.jpeg" width="60%" height="30px" style="margin-left:10px; margin-top: 20px;">
+                <img src="image/image/list1.jpeg" width="60%" height="30px" style="margin-left:10px; margin-top: 20px;">
+                <img src="image/image/list1.jpeg" width="60%" height="30px" style="margin-left:10px; margin-top: 20px;">
+                <img src="image/image/list1.jpeg" width="60%" height="30px" style="margin-left:10px; margin-top: 20px;">
+                <img src="image/image/list1.jpeg" width="60%" height="30px" style="margin-left:10px; margin-top: 20px;">
+                <img src="image/image/list1.jpeg" width="60%" height="30px" style="margin-left:10px; margin-top: 20px;">
+                <div class="box3-2">
+                    <span class="box3-2w">企业要闻</span>
+                    <hr/>
+                    <span class="box3-2w">业务平台</span>
+                </div>
+        </div>
+        <div class = "box4">
+            <div class = "word3">
+                <span class="topic3">企业动态</span>
+                <span class="topic4">更多...</span>
+                <hr style="margin-top: 10px;"/>
+            </div>
+            <div class = "word4">
+                <span class="topic3">业务信息</span>
+                <span class="topic4">更多...</span>
+                <hr/>
+            </div>
+            <div class = "word5">
+                <span class="topic3">顾客反馈</span>
+                <span class="topic4">更多...</span>
+                <hr/>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <style type="text/css">
+            *{
+                margin: 0px;
+                padding: 10px;
+            }   
+            div{
+                width: 200px;
+                height: 200px;
+                border: 1px solid gray;
+            }
+            .a{
+                position: absolute; /*绝对定位 元素离开自己当前位置 后面的元素会占据空余的位置*/
+                left: 50%;
+                margin-left: -100px;
+                background-color: red;
+                z-index: 1;
+            }
+            .b{
+                position: relative; /*相对定位 元素离开自己当前的位置 后面的元素不会占据他的位置 原来的位置继续保留*/
+                background-color: yellow;
+                left: 50%;
+                z-index: 1;
+            }
+            .c{
+                position: fixed; /*固定定位，元素以当前屏幕为标准，固定在当前屏幕的某个位置*/
+                background-color: skyblue;
+                left: 40%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="a"></div>
+        <div class="b"></div>
+        <div class="c"></div>
+    </body>
+</html>

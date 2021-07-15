@@ -28,8 +28,16 @@
                 color: white;
             }
             li{
-                border: 1px solid rgb(43, 28, 109);
-                float: left;
+                border-right: 1px solid white;
+                background-color: red;
+                color: white;
+                font-size: 20px; /*字体大小*/
+                font-family: "微软雅黑";
+                font-weight: 600; /*字体粗细*/
+                float: left; /*浮动*/
+                height: 40px;
+                text-align: center;
+                line-height: 40px; /*行高*/
                 list-style: none;
                 clear: both;
                 flex: 1;
@@ -37,28 +45,28 @@
             ul{
                 display: flex;
             }
+            /*伪类*/
+            li:hover{
+                background-color: white;
+                color: red;
+                cursor: pointer; /*改变鼠标的图像*/
+            }
         </style>
     </head>
     <body>
+        /*ul无序*/
         <span class="b">张旷</span>
         <div class="a">刘晗</div>
         <div class="c">爱学习</div>
-        <ol>
-            <li>水果</li>
-            <li>蔬菜</li>
-            <li>张旷</li>
-            <li>
-                <ol>
-                    <li>刘晗</li>
-                    <li>张旷</li>
-                    <li>爱学习</li>
-                </ol>
-            </li>
-        </ol>
         <ul>
             <li>张旷</li>
             <li>刘晗</li>
             <li>爱学习</li>
+            <li>汤先宁</li>
+            <li>牛啊</li>
+            <li>别学了</li>
+            <li>刘娱乐</li>
+            <li>偷偷乐</li>
         </ul>
     </body>
 </html>
